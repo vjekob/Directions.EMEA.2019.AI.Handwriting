@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Local BC150",
+            "server": "http://localhost",
+            "port": 7049,
+            "serverInstance": "BC150",
+            "authentication": "UserPassword",
+            "startupObjectId": 50100,
+            "startupObjectType": "Page",
+            "breakOnError": false,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}
